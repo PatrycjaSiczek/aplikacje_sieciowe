@@ -1,0 +1,29 @@
+Zadanie 2
+telnet interia.pl 587
+
+220 localhost ESMTP FakeServer
+EHLO localhost
+250-localhostA
+ 250-AUTH LOGIN
+250 OKU
+ TH LOGIN
+c334 VXNlcm5hbWU6
+GFzMjAxN0BpbnRlcmlhLnBs
+334 UGFzc3dvcmQ6U
+ DRTSW5mMjAxNw==
+235 2.7.0 Authentication successful
+MAIL FROM: <pas2017@interia.pl>
+250 2.1.0 OkR
+ CPT TO: <pas2017@interia.pl>
+250 2.1.5 OkR
+ CPT TO: <pasinf2017@interia.pl>
+250 2.1.5 Ok
+DATA
+354 End data with <CR><LF>.<CR><LF>
+From: pas2017@interia.pl
+To: pas2017@interia.pl, pasinf2017@interia.pl
+Subject: Zadanie 2
+Wiadomosc do dwoch osob.
+.
+250 2.0.0 Ok: queued
+QUIT

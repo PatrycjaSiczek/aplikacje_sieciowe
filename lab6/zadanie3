@@ -1,0 +1,28 @@
+Zadanie3
+telnet 127.0.0.1 2525
+
+220 localhost ESMTP FakeServer
+EHLO localhost
+250-localhostA
+
+250 OK
+UTH LOGIN
+c334 VXNlcm5hbWU6
+GFzMjAxN0BpbnRlcmlhLnBs
+334 UGFzc3dvcmQ6
+UDRTSW5mMjAxNw==
+MAIl FROM: <pas2017@interia.pl>
+250 2.1.0 OkR
+ CPT TO: <pas2017@interia.pl>
+250 2.1.5 Ok
+DATA
+354 End data with <CR><LF>.<CR><LF>
+From: <falszywy_nadawca@polska.pl>
+To: <pas2017@interia.pl>
+Subject: Zadanie 3 - Spoofing
+Udawanie kogos innego
+.
+Q250 2.0.0 Ok: queued
+UIT
+221 2.0.0 Bye
+

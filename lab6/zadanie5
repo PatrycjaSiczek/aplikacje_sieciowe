@@ -1,0 +1,41 @@
+Zadanie5
+telnet 127.0.0.1 2525
+
+220 localhost ESMTP FakeServer
+EHLO localhost
+250-localhostA
+250-AUTH LOGIN
+250 OK
+UTH LOGIN
+c334 VXNlcm5hbWU6
+GFzMjAxN0BpbnRlcmlhLnBs
+334 UGFzc3dvcmQ6U
+ DRTSW5mMjAxNw==
+235 2.7.0 Authentication successfulM
+ AIL FROM: <pas2017@interia.pl>
+250 2.1.0 Ok
+RCPT TO: <pas2017@interia.pl>
+250 2.1.5 Ok
+DATA
+354 End data with <CR><LF>.<CR><LF>
+From: pas2017@interia.pl
+To: pas2017@interia.pl
+Subject: Zadanie 5
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="sep"
+--sep
+Content-Type: text/plain; charset="utf-8"
+
+Tresc z obrazkiem.
+--sep
+Content-Type: image/jpeg; name="lena.png"
+Content-Disposition: attachment; filename="lena.png"
+Content-Transfer-Encoding: base64
+
+/9j/4AAQSkZJRgABAQAAAQABAAD...
+--sep--
+.
+250 2.0.0 Ok: queued
+QUIT
+221 2.0.0 Bye
+
