@@ -1,0 +1,13 @@
+Zadanie1
+telnet 127.0.0.1 1110
+
+USER pasinf2017@interia.pl
++OK Tell me your password.
+PASS P4SInf2017
++OK Welcome aboard! You have 17 messages.
+
+Zadanie2
+STAT
++OK 17 22846
+QUIT
++OK Done

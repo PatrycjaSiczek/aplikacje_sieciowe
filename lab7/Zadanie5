@@ -1,0 +1,10 @@
++OK 7ba150688b0b94dd
+USER pasinf2017@interia.pl
++OK Tell me your password.
+PASS P4SInf2017
++OK Welcome aboard! You have 17 messages.
+DELE 1
++OK message deleted
+QUIT
++OK Done
+

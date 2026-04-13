@@ -1,0 +1,16 @@
++OK 7ba150688b0b94dd
+USER pasinf2017@interia.pl
++OK Tell me your password.
+USER pasinf2017@interia.pl
++OK Tell me your password.
+RETR 17
++OK 2376 octets
+From: annainf@interia.pl
+To: pasinf2017@interia.pl
+Subject: Zadanie 4 - Najwiekszy rozmiar wiadomosci
+abcddffrnjkfdvj -
+Tresc wiadomosci o najwiekszym rozmiarze w skrzynce
+.
+QUIT
++OK Done
+
