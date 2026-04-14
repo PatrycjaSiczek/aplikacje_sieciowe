@@ -1,0 +1,27 @@
+* OK IMAP4rev1 Service Ready
+A1 LOGIN pasumcs@infumcs.edu P4SInf2017
+A1 OK LOGIN completed
+A2 LIST "" "*"
+* LIST (\HasNoChildren) "/" "INBOX"
+* LIST (\HasNoChildren) "/" "Sent"
+A2 OK LIST completed
+A3 STATUS INBOX (MESSAGES)
+* STATUS INBOX (MESSAGES 5)
+A3 OK STATUS completed A4 SELECT INBOX
+* 5 EXISTS
+* 1 RECENT
+A4 OK [READ-WRITE] SELECT completed
+A5 FETCH 1 BODY[]
+* 1 FETCH (BODY[] {50}
+To jest tresc wiadomosci IMAP z testowego serwera.
+)
+A5 OK FETCH completed
+A6 STORE 1 +FLAGS (\Seen)
+* 1 FETCH (FLAGS (\Seen \Deleted))
+A6 OK STORE completed
+A7 LOGOUT
+* BYE IMAP4rev1 Server logging out
+A7 OK LOGOUT completed
+
+Połączenie z hostem przerwane.
+
